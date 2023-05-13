@@ -1,0 +1,80 @@
+html, body, header, p, a, h1, h3, h2, img {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 1800px;
+}
+p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 22px;
+}
+h2{
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+.image1{
+    background-image: url("Images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    filter: brightness(90%);
+}
+.image1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin: 200px 0px 20px 0px;
+}
+.image1 h3 {
+    margin: 5px 0;
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    padding: 0 0 370px 0;
+}
+.header{
+    display:flex;
+    margin: 0px 60px 0px 60px;
+    padding-top: 30px;
+    border-bottom: 2px solid white;
+}
+.header p{
+    flex-grow:1;
+    color: white;
+    margin: 0;
+}
+.header a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+hr {
+    margin: 2px 500px;
+    height: 2px;
+    color: white;
+    background-color: white;
+}
+img {
+    width: 550px;
+    height: 400px;
+}
+.images{
+    display:flex;
+}
+.content1 {
+    padding: 120px 120px;
+    background-color: black;
+    color: white;
+}
+.content2 {
+    padding: 120px 120px;
+    background-color: #222222;
+    color: white; 
+}
+.content3{
+    padding: 120px 120px;
+    background-color: #333333;
+    color: white; 
+}
